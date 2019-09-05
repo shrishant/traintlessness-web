@@ -4,12 +4,18 @@ body{
     width:960px;
     /* font-family: 'Montserrat', sans-serif; */
 }
-h1,h2,h3,h4,h6{
+h1,h2,h3,h4,h5,h6{
     font-family: 'Source Serif Pro', serif;
+    color:#D85B2E;
+}
+footer{
+    line-height:28px;
+}
+a{
+    color:white;
 }
 header{
     margin:36px 0px;
-    color:brown
 }
 header h1{
     font-size:26px;
@@ -20,7 +26,7 @@ header h5{
 }
 header .LinkFooter{
     display:block;
-    margin:8px 0px 0px 0px;
+    margin:5px 0px 0px 0px;
     padding:0px;
 }
 header input{
@@ -37,15 +43,14 @@ header input{
     font-size:12px;
     background-color:rgba(216, 91, 46,10);
     padding:10px 8px;
-    border-radius:15%;
-    color:white;
+    border-radius:10%;
 }
 nav{
     margin-bottom:46px;
 }
 nav ul li{
     border-right:1px solid white;
-    background-color: rgb(161, 61, 24);
+    background-color:#D85B2E;
     padding:12px 0px;
 }
 nav li:nth-child(1){
@@ -63,7 +68,6 @@ nav li:nth-child(7){
 }
 .firstSec h2{
     font-size:35px;
-    color:brown;
 }
 .firstSec p{
     font-size:13px;
@@ -71,20 +75,62 @@ nav li:nth-child(7){
 }
 .secondSec{
     margin-top:46px;
+    margin-bottom:54px;
 }
 .secondSec h2{
     font-size:38px;
-    color:brown;
     margin-bottom:0px;
 }
-.secondSec h5{
+.secondSec .headingElement p{
     max-width:60%;
     margin:0% 0% 0% 20%;
     font-weight:100;
 }
-.secondSec h6{
+.HeadingSix{
     font-size:22px;
 }
 .headingElement {
     margin-bottom:50px;
+}
+.myPara{
+    font-size: 13px;
+}
+.thirdSection{
+    margin-top:44px;
+    margin-bottom:47px;
+}
+.imageContainer img{
+    padding: 1px;
+    border:1px solid gray;
+    margin-bottom:18px;
+}
+.lastSection{
+    margin-top:27px;
+    font-family: 'Source Serif Pro', serif;
+}
+.lastSection .col-md-3 h5{
+    font-size:16px;
+    margin-bottom:18px;
+}
+.lastSection .col-md-3 li{
+    list-style-type:none;
+    font-size:15px;
+    line-height:20px;
+}
+.lastpara{
+    line-height:20px;
+}
+.innerSection{
+    margin-top:24px;
+}
+.camera{
+    margin-right: 14px;
+    margin-top:6px;
+}
+.last-content h4{
+    margin-bottom:0px;
+    line-height:48px;
+}
+.last-content footer{
+    line-height:60px;
 }
